@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>李宁官方网站</title>
+    <link rel="stylesheet" href="http://47.115.92.110/lining/resource/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://47.115.92.110/lining/css/common.css">
+    <link rel="stylesheet" href="http://47.115.92.110/lining/css/showcartInfo.css">
+    <script src="http://47.115.92.110/lining/resource/js/jquery.min.js"></script>
+    <script src="http://47.115.92.110/lining/resource/js/jquery.cookie.js"></script>
+    <script src="http://47.115.92.110/lining/resource/js/bootstrap.min.js"></script>
+    <script src="http://47.115.92.110/lining/js/showcartInfo.js"></script>
+
+</head>
+<body>
+    <div class="container-fluid">
+        <script src="http://47.115.92.110/lining/js/header.js"></script>
+        <script src="http://47.115.92.110/lining/js/header_nav.js"></script>
+    </div>
+    <div class="content">
+        <div class="container">
+            <img src="http://47.115.92.110/lining/resource/images/showcartInfo.png" alt="" class="shoppingbar">
+            <table class="table table-hover text-center">
+                <thead class="table-header">
+                    <th class="text-center">选择</th>
+                    <th class="text-center">商品信息</th>
+                    <th class="text-center">单价</th>
+                    <th class="text-center">数量</th>
+                    <th class="text-center">优惠</th>
+                    <th class="text-center">小计</th>
+                    <th class="text-center">操作</th>
+                </thead>
+                <tbody class="cartlist">
+                    
+                </tbody>
+            </table>
+            
+            <div class="panel panel-default cartfooter">
+                <div class="panel-body">
+                    <div class="panel-left">
+                        <ul>
+                            <li class="removeManySpan">
+                                <span data-toggle="modal" data-target=".bs-example-modal-sm">
+                                    批量删除
+                                </span>
+                                <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                                    <div class="modal-dialog modal-sm" role="document">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                            <h4 class="modal-title">提示:</h4>
+                                          </div>
+                                          <div class="modal-body">
+                                            <p>您确认要删除商品吗?</p>
+                                          </div>
+                                          <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                                            <button type="button" class="btn btn-primary removeMany">删除</button>
+                                          </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                            </li>
+                            <li>
+                                <a href="http://47.115.92.110/lining/index.html">继续购物</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="panel-right">
+                        <ul>
+                            <li>
+                                总计（不含运费）：<span class="total">￥0.00</span>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <button class="btn btn-danger totalBtn">去结算</button>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="http://47.115.92.110/lining/js/footer.js"></script>
+    <script src="http://47.115.92.110/lining/js/common.js"></script>
+</body>
+</html>

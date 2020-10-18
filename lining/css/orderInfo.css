@@ -1,0 +1,105 @@
+.color-red{
+    color: #EE2737;
+}
+.content{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    background-color: #EEEFEF;
+}
+.shoppingbar{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.panel-body{
+    border-bottom: 1px solid #ccc;
+    margin: 10px;
+}
+.panel_l{
+    float: left;
+}
+.panel_r{
+    float: right;
+}
+.panel_r span{
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+.panel_r span:hover{
+    color: #EE2737;
+    cursor: pointer;
+}
+td{
+    vertical-align: middle !important;
+}
+.table-header>th:nth-of-type(1){
+    width: 30%;
+}
+.table-header>th:nth-of-type(2){
+    width: 20%;
+}
+.table-header>th:nth-of-type(3){
+    width: 10%;
+}
+.table-header>th:nth-of-type(4){
+    width: 10%;
+}
+.table-header>th:nth-of-type(5){
+    width: 10%;
+}
+.table-header>th:nth-of-type(6){
+    width: 20%;
+}
+.cartlist{
+    font-size: 12px;
+}
+.cartlist img{
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ccc;
+}
+.subtotal, .total{
+    font-size: 18px;
+    font-weight: bold;
+    color: #EE2737;
+}
+.recipient_information_box, .coupon_box, .freeCard_box{
+    background-color: #F5F5F5;
+    border-bottom: none;
+}
+.recipient_information_form .form-group{
+    position: relative;
+    width: 50%;
+    left: 25%;
+}
+select{
+    width: 32%;
+}
+.new_address_btn button{
+    width: 150px;
+}
+.coupon_freeCard, .settle_accounts, .accounts_list, .freeCard, .coupon{
+    border-bottom: none;
+}
+.coupon, .freeCard{
+    cursor: pointer;
+}
+.leave_message textarea{
+    width: 100%;
+    resize: none;
+}
+.accounts_list{
+    background-color: #F5F5F5;
+    font-size: 12px;
+}
+.accounts_list p span{
+    display: inline-block;
+    width: 100px;
+}
+.coupon_box span{
+    font-weight: bold;
+}
+.coupon_box p{
+    text-indent: 2em;
+}

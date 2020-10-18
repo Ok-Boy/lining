@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>李宁官方网站</title>
+    <link rel="stylesheet" href="http://47.115.92.110/lining/resource/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://47.115.92.110/lining/resource/css/swiper.min.css">
+    <link rel="stylesheet" href="http://47.115.92.110/lining/css/common.css">
+    <link rel="stylesheet" href="http://47.115.92.110/lining/css/details.css">
+    <script src="http://47.115.92.110/lining/resource/js/jquery.min.js"></script>
+    <script src="http://47.115.92.110/lining/resource/js/jquery.cookie.js"></script>
+    <script src="http://47.115.92.110/lining/resource/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <script src="http://47.115.92.110/lining/js/header.js"></script>
+        <script src="http://47.115.92.110/lining/js/header_nav.js"></script>
+    </div>
+    <div class="container">
+        <div class="itemInfo clearfix">
+            <div class="itemInfo_left col-lg-4 col-md-5 col-sm-6">
+                <!-- <div class="mainPic"></div> -->
+                <!-- Swiper -->
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            <div class="itemInfo_right col-lg-8 col-md-7 col-sm-6">
+                <div class="right_one">
+                </div>
+                <div class="select_color">
+                    <p><span>选择颜色：</span></p>
+                    <div>
+                        <ul class="color_list clearfix">
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="right_two">
+                    <p>
+                        <span>我要买：</span>
+                        <em class="glyphicon glyphicon-minus-sign minus"></em>
+                        <input type="text" value="1" class="buy_count text-center">
+                        <em class="glyphicon glyphicon-plus-sign plus"></em>
+                    </p>
+                </div>
+                <div class="right_three">
+                    <button type="button" class="btn buy_now"><em class="glyphicon glyphicon-yen"></em> 立即购买</button>
+                    <button type="button" class="btn to_cart"><em class="glyphicon glyphicon-shopping-cart"></em>
+                        加入购物车</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="panel">
+            <div class="footage_module">
+                <div class="panel-heading comm_bg">
+                    <h4 class="text-center"><span class="bgcolor-red">尺码对照表</span></h4>
+                </div>
+                <div class="panel-body footage_one">
+                    <!-- 尺码对照表模块 -->
+                </div>
+                <div class="panel-body footage">
+                    <!-- 尺码测量 -->
+                    <p class="foot_sizeway"><span class="color-red">尺码测量</span><em
+                            class="glyphicon glyphicon-plus-sign"></em></p>
+                    <img src="http://47.115.92.110/lining/resource/images/foot_sizeway.jpg" alt=""
+                        class="foot_sizeway_img hidden">
+                </div>
+            </div>
+            <div class="product_show_module">
+                <div class="panel-heading comm_bg">
+                    <h4 class="text-center"><span class="bgcolor-red">产品展示</span></h4>
+                </div>
+                <div class="panel-body product_show">
+                    <!-- 产品展示模块 -->
+                </div>
+            </div>
+            <div class="sz_jtq_module">
+                <div class="panel-heading comm_bg">
+                    <h4 class="text-center"><span class="bgcolor-red">舒适度指数</span></h4>
+                </div>
+                <div class="panel-body sz_jtq">
+                    <!-- 舒适度指数模块 -->
+                    <img src="http://47.115.92.110/lining/resource/images/sz_jtq.jpg" alt="">
+                </div>
+            </div>
+            <div class="we_server_module">
+                <div class="panel-heading comm_bg">
+                    <h4 class="text-center"><span class="bgcolor-red">我们的服务</span></h4>
+                </div>
+                <div class="panel-body we_server">
+                    <!-- 我们的服务模块 -->
+                    <ul>
+                        <li>
+                            <img src="http://47.115.92.110/lining/resource/images/serve_01.png" alt="">
+                            <div>
+                                <span class="title_one color-red">正品保障</span>
+                                <br>
+                                <span class="title_two">李宁官网正品</span>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="http://47.115.92.110/lining/resource/images/serve_02.png" alt="">
+                            <div>
+                                <span class="title_one color-red">退货无忧</span>
+                                <br>
+                                <span class="title_two">7天无理由退货</span>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="http://47.115.92.110/lining/resource/images/serve_03.png" alt="">
+                            <div>
+                                <span class="title_one color-red">满280包邮</span>
+                                <br>
+                                <span class="title_two">全国</span>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="http://47.115.92.110/lining/resource/images/serve_05.png" alt="">
+                            <div>
+                                <span class="title_one color-red">14小时在线</span>
+                                <br>
+                                <span class="title_two">9:00-23:00</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="process_module">
+                <div class="panel-heading comm_bg">
+                    <h4 class="text-center"><span class="bgcolor-red">退货流程</span></h4>
+                </div>
+                <div class="panel-body process">
+                    <!-- 退货流程 -->
+                    <img src="http://47.115.92.110/lining/resource/images/process.jpg" alt="">
+                </div>
+            </div>
+            <div class="say_detail_mudule">
+                <div class="panel-heading comm_bg">
+                    <h4 class="text-center"><span class="bgcolor-red">退换货声明</span></h4>
+                </div>
+                <div class="panel-body say_detail">
+                    <!-- 退换货声明 -->
+                    <img src="http://47.115.92.110/lining/resource/images/say_detail.jpg" alt="">
+                </div>
+            </div>
+            <div class="send_word_module">
+                <div class="panel-heading comm_bg">
+                    <h4 class="text-center"><span class="bgcolor-red">配送须知</span></h4>
+                </div>
+                <div class="panel-body send_word">
+                    <!-- 配送须知 -->
+                    <img src="http://47.115.92.110/lining/resource/images/send_word.jpg" alt="">
+                </div>
+            </div>
+            <div class="des_one_module">
+                <div class="panel-heading comm_bg">
+                    <h4 class="text-center"><span class="bgcolor-red">价格说明</span></h4>
+                </div>
+                <div class="panel-body des des_one">
+                    <!-- 价格说明模块 -->
+                    <h5>商品详情页显示价格说明：</h5>
+                    <p><span class="color-red">划线价：</span>商品展示的划横线价格为商品吊牌价或李宁青浦展示厅展示价格，非原价；由于地区、时间的差异性和市场行情波动，
+                        商品吊牌价等可能会与您购物时展示的不一致，该价格仅供您参考。</p>
+                    <p><span class="color-red">销售价：</span>商品当前的销售价，是按促销活动、常规折扣进行打折后的最终售价，是您拍下商品的成交价格。</p>
+                    <p><span class="color-red">折扣：</span>如无特殊说明，折扣指在划线价（商品吊牌价）基础上计算出的优惠比例；如有疑问，您可在购买前联系销售商进行咨询。</p>
+                </div>
+            </div>
+            <div class="des_two_module">
+                <div class="panel-heading comm_bg">
+                    <h4 class="text-center"><span class="bgcolor-red">发票说明</span></h4>
+                </div>
+                <div class="panel-body des des_two">
+                    <!-- 发票说明模块 -->
+                    <p>按照国家有关税收法律法规，在您购买应税货物或接受应税服务的同时，有权索取增值税发票。</p>
+                    <p>如您为自然人以外的单位或个体工商户，符合规定条件的,索取增值税专用发票时，应向我们提供购买方名称、纳税人识别号、地址电话、</p>
+                    <p>开户行及账号信息等四项信息，不需相关证件或其他证明材料。</p>
+                    <p>您在索取增值税普通发票时，不需提供相关证件或其他证明材料。</p>
+                </div>
+            </div>
+            <div class="des_three_module">
+                <div class="panel-heading comm_bg">
+                    <h4 class="text-center"><span class="bgcolor-red">其他说明</span></h4>
+                </div>
+                <div class="panel-body des des_three">
+                    <!-- 其他说明模块 -->
+                    <p>本页面所介绍的商品图文信息，实际产品因批次不同，材质和细节上偶有微小差异，敬请谅解，请以收到实物为准；页面中提供的实验数据
+                        为理论值，均来自李宁内部实验室，仅供参考；</p>
+                    <p>另本店严格遵守《中华人民共和国广告法》等相关规定，并已尽最大注意义务及审查义务，竭力避免出现相关禁用词（如“顶级”、“最
+                        佳”等极限化词汇）。如果本店全网包括产品详情页面及产品标题等出现禁用词的，一律非本店主观意愿而为，客户不可将其作为在本店下
+                        单购物的参考依据。特此说明！</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+
+    </div>
+    <script src="http://47.115.92.110/lining/js/footer.js"></script>
+    <script src="http://47.115.92.110/lining/js/common.js"></script>
+    <script src="http://47.115.92.110/lining/resource/js/swiper.min.js"></script>
+    <script src="http://47.115.92.110/lining/js/details.js"></script>
+</body>
+
+</html>

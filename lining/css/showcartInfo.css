@@ -1,0 +1,76 @@
+.color-red{
+    color: #EE2737;
+}
+.content{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    background-color: #EEEFEF;
+}
+.shoppingbar{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.mainPic{
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ccc;
+}
+td{
+    vertical-align: middle !important;
+}
+.table-header>th:nth-of-type(1){
+    width: 10%;
+}
+.table-header>th:nth-of-type(2){
+    width: 30%;
+}
+.table-header>th:nth-of-type(3){
+    width: 10%;
+}
+.table-header>th:nth-of-type(4){
+    width: 20%;
+}
+.table-header>th:nth-of-type(5){
+    width: 10%;
+}
+.table-header>th:nth-of-type(6){
+    width: 10%;
+}
+.table-header>th:nth-of-type(7){
+    width: 10%;
+}
+.count{
+    width: 40px;
+    text-align: center;
+}
+.goodsName{
+    font-size: 12px;
+}
+.deleteGood:hover{
+    cursor: pointer;
+    color: #EE2737;
+}
+.panel-left{
+    float: left;
+}
+.panel-right{
+    float: right;
+}
+.panel-left ul, .panel-right ul{
+    list-style: none;
+    padding: 0;
+}
+.panel-left ul li, .panel-right ul li{
+    float: left;
+    margin: 0 20px;
+}
+.total{
+    font-size: 24px;
+    font-weight: bold;
+    color: #EE2737;
+}
+.removeManySpan:hover{
+    cursor: pointer;
+    color: #EE2737;
+}

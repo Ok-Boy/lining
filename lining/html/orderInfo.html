@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>李宁官方网站</title>
+    <link rel="stylesheet" href="http://47.115.92.110/lining/resource/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://47.115.92.110/lining/css/common.css">
+    <link rel="stylesheet" href="http://47.115.92.110/lining/css/orderInfo.css">
+    <script src="http://47.115.92.110/lining/resource/js/jquery.min.js"></script>
+    <script src="http://47.115.92.110/lining/resource/js/jquery.cookie.js"></script>
+    <script src="http://47.115.92.110/lining/resource/js/bootstrap.min.js"></script>
+
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <script src="http://47.115.92.110/lining/js/header.js"></script>
+        <script src="http://47.115.92.110/lining/js/header_nav.js"></script>
+    </div>
+    <div class="content">
+        <div class="container">
+            <img src="http://47.115.92.110/lining/resource/images/orderInfo.png" alt="" class="shoppingbar">
+            <div class="panel panel-default">
+                <div class="panel-body recipient_information">
+                    <div class="panel_l">
+                        <span><strong>收件人信息</strong></span>
+                    </div>
+                    <div class="panel_r">
+                        <span class="spanBtn new_address">使用新地址</span>
+                        <span class="spanBtn manage_address">管理收货地址</span>
+                    </div>
+                </div>
+                <div class="panel-body recipient_information_box hidden">
+                    <form class="recipient_information_form text-center">
+                        <div class="form-group">
+                            <input type="text" class="form-control consignee" placeholder="收货人">
+                        </div>
+                        <div class="form-group text-center">
+                            <select name="" id="province" class="province">
+                                <option value="">--请选择--</option>
+                            </select>
+                            <select name="" id="cities" class="cities">
+                                <option value="">--请选择--</option>
+                            </select>
+                            <select name="" id="county" class="county">
+                                <option value="">--请选择--</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control address" placeholder="收货地址/Address">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control mobile" placeholder="手机/Mobile" maxlength="11">
+                        </div>
+                        <div class="new_address_btn text-center">
+                            <button type="button" class="btn btn-danger new_address_save">保存收货人信息</button>
+                            <button type="button" class="btn btn-default new_address_close">关闭</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="panel-body pay_method">
+                    <div class="panel_l">
+                        <span><strong>支付方式</strong></span>
+                    </div>
+                    <div class="panel_r">
+                        在线支付
+                    </div>
+                </div>
+                <div class="panel-body invoice_information">
+                    <div class="panel_l">
+                        <span><strong>发票信息</strong>（订单发货后，请至“我的李宁” - “我的订单”中申请发票）</span>
+                    </div>
+                    <div class="panel_r">
+                        电子发票
+                    </div>
+                </div>
+                <div class="panel-body invoice_information">
+                    <div class="panel_l">
+                        <span><strong>确认订单信息</strong></span>
+                    </div>
+                </div>
+                <table class="table table-hover text-center">
+                    <thead class="table-header">
+                        <th class="text-center">商品信息</th>
+                        <th class="text-center">单价</th>
+                        <th class="text-center">数量</th>
+                        <th class="text-center">优惠</th>
+                        <th class="text-center">小计</th>
+                    </thead>
+                    <tbody class="cartlist">
+                       
+                    </tbody>
+                </table>
+                <div class="panel-body coupon_freeCard">
+                    <div class="panel_l">
+                        <span><strong>使用优惠券/免邮卡</strong></span>
+                    </div>
+                <div class="panel-body coupon">
+                    <div class="panel_l">
+                        <span class="coupon_btn isClose">优惠券 <em class="glyphicon glyphicon-chevron-right"></em></span>
+                    </div>
+                    <div class="panel_r">
+                        <a href="">优惠券使用说明 <em class="glyphicon glyphicon-question-sign"></em></a>
+                    </div>
+                </div>
+                <div class="panel-body coupon_box hidden">
+                    <div>
+                        <input type="text" name="" class="freeCard_inp" placeholder="请输入优惠券编码">
+                        <button class="btn btn-danger freeCard_btn">使用</button>
+                    </div>
+                    <input type="radio" name="coupon" id=""> <span>微信代金券</span>
+                    <p>微信代金券无法手动选择，选中“微信代金券”前单选框，系统默认匹配当前订单可用最优惠的代金券， 微信代金券只能使用微信支付才能扣减</p>
+                    <p>暂无可用微信代金券</p>
+                    <input type="radio" name="coupon" id=""> <span>商城卷</span>
+                    <p>暂无可用商城券</p>
+                    <input type="radio" name="coupon" id="" checked> <span>不使用优惠券</span>
+                </div>
+                <div class="panel-body freeCard">
+                    <div class="panel_l">
+                        <span class="freeCard_btn isClose">免邮卡 <em class="glyphicon glyphicon-chevron-right"></em></span>
+                        <span class="focus_On"><a href="">关注“李宁官方旗舰店”公众号，回复“包邮”，领取免邮卡</a></span>
+                    </div>
+                    <div class="panel_r">
+                        <a href="">免邮卡使用说明 <em class="glyphicon glyphicon-question-sign"></em></a>
+                    </div>
+                </div>
+                <div class="panel-body freeCard_box text-center hidden">
+                    <input type="text" name="" class="freeCard_inp" placeholder="输入免邮卡编号">
+                    <button class="btn btn-danger freeCard_btn">使用</button>
+                </div>
+                <div class="panel-body leave_message">
+                    <textarea name="" id="" cols="" rows="10" placeholder="订单留言（150字之内）"></textarea>
+                </div>
+                <div class="panel-body settle_accounts">
+                    <div class="panel_l">
+                        <span><strong>结算清单</strong></span>
+                    </div>
+                </div>
+                <div class="panel-body accounts_list text-right">
+                    
+                </div>
+                <div class="panel-body pay_money text-right">
+                    <p>应付总金额：<span class="total">-</span></p>
+                    <p>
+                        <a href="javascript:void(0);">
+                            <button class="btn btn-danger totalBtn">提交订单</button>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="http://47.115.92.110/lining/js/footer.js"></script>
+    <script src="http://47.115.92.110/lining/js/common.js"></script>
+    <script src="http://47.115.92.110/lining/js/orderInfo.js"></script>
+
+</body>
+
+</html>
